@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -19,8 +19,7 @@ body {
     font-size: 48px;
     margin: 0;
   }
-  
-  /* Form Section */
+
   .form-section {
     margin: 20px auto;
     padding: 20px;
@@ -55,7 +54,6 @@ body {
     background: #4682b4;
   }
   
-  /* Countdown Section */
   .countdown-section {
     margin: 20px auto;
     max-width: 600px;
