@@ -36,7 +36,7 @@ function addTimer(name, date) {
     let diff = date - now;
     if (diff <= 0) {
       clearInterval(int);
-      timerSpan.innerHTML = "🎉 Happy Holidays!";
+      timerSpan.innerHTML = "🎉 HAppy Holidays!";
     } else {
       let days = Math.floor(diff / (1000 * 60 * 60 * 24));
       let hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
