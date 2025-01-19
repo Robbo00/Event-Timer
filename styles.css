@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff;
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    background: #6fa8dc;
+    color: white;
+    padding: 20px;
+    border-bottom: 5px solid #ffcccb;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  /* Form Section */
+  .form-section {
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    max-width: 400px;
+    border: 2px solid #ffcccb;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #6fa8dc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #4682b4;
+  }
+  
+  /* Countdown Section */
+  .countdown-section {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background: #ffcccb;
+    border-radius: 5px;
+  }
+  
+  .countdown p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background: #d32f2f;
+  }

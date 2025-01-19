@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holiday Countdown</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🎄 Holiday Countdown 🎉</h1>
+    <p>Add your favorite holiday events and track the countdown in real-time!</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add Event</h2>
+      <form id="event-form">
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" required>
+
+        <label for="event-date">Event Date & Time:</label>
+        <input type="datetime-local" id="event-date" required>
+
+        <button type="submit">Add Event</button>
+      </form>
+    </section>
+
+    <section class="countdown-section">
+      <h2>Active Countdowns</h2>
+      <div id="countdowns"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
